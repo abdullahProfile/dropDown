@@ -82,3 +82,47 @@ body{
   display: table;
   clear: both;
 }
+
+
+.menubar {
+  background: #2a2a2a;
+  text-align: center;
+}
+
+.menubar ul {
+  display: inline-flex;
+  color: #f9f9f9;
+  list-style: none;
+}
+
+.menubar ul li {
+  padding: 15px;
+}
+
+.menubar ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+.active,.menubar ul li a:hover {
+  background-color: rgb(73, 76, 74);
+  color: #a2a2a2;
+}
+
+.sub-menu-one {
+  display: none;
+}
+
+.menubar ul li:hover .sub-menu-one {
+  display: block;
+  position: absolute;
+  background: #313131;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 0 4px 2px 2px #888686;
+}
+
+.menubar ul li:hover .sub-menu-one ul {
+  display: block;
+}
