@@ -50,3 +50,64 @@ body{
 .menubar ul li:hover .sub-menu-one ul {
   display: block;
 }
+
+.menubar-2 {
+  background-color: rgb(74, 172, 74);
+  padding: 15px;
+}
+
+.menubar-2 ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+
+  h3{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+
+.menubar-2 ul li a {
+  text-decoration: none;
+  color: #fff;
+  font: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+
+  &:hover {
+    background-color: rgb(93, 128, 93);
+    padding: 10px;
+  }
+}
+
+.fa {
+  color: #fff;
+}
+
+.sub-menu-two {
+  display: none;
+}
+
+.menubar-2 ul li:hover .sub-menu-two {
+  display: flex;
+  position: absolute;
+  background-color: rgb(63, 127, 63);
+  box-shadow: 0 5px 2px 2px rgb(141, 171, 141);
+  padding: 30px;
+  left: 0;
+  width: 100%;
+  justify-content: space-around;
+  border-radius: 15px;
+  margin-top: 15px;
+
+}
+
+.menubar-2 ul li:hover .sub-menu-two ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
