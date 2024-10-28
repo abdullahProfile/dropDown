@@ -103,7 +103,6 @@ body{
   width: 100%;
   justify-content: space-around;
   border-radius: 15px;
-  margin-top: 15px;
   z-index: 100;
 
 }
@@ -176,6 +175,7 @@ input[type=submit]:hover {
   align-items: center;
   justify-content: center;
 }
+
 iframe {
   display: block;
   width: 500px;
@@ -191,4 +191,51 @@ iframe {
     flex-direction: column;
     gap: 10px;
   }
+}
+
+.container {
+  max-width: 1440px;
+  height: 100vh;
+  margin-bottom: 50px;
+  position: relative;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0, .4);
+
+}
+
+.content {
+  text-align: center;
+
+  h1 {
+    font-size: 95px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    font: 20px;
+    padding: 12px;
+    border: 2px solid currentColor;
+    color: #fff;
+    border-radius: 10px;
+
+    &:hover {
+      color: #000;
+      background-color: #a5a1a1;
+    }
+  }
+
+}
+
+.background-clip {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
 }
