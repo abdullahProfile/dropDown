@@ -51,6 +51,14 @@ body{
   display: block;
 }
 
+.fa {
+  transition: all .3s ease-in;
+}
+
+.menubar ul li:hover .fa {
+  transform: rotate(180deg);
+}
+
 .menubar-2 {
   background-color: rgb(74, 172, 74);
   padding: 15px;
@@ -107,16 +115,19 @@ body{
   align-items: center;
 }
 
+.menubar-2 ul li:hover .fa {
+  transform: rotate(180deg);
+}
+
 form {
   max-width: 700px;
-  border: 2px solid gray;
   padding: 20px;
   margin-inline: auto;
   margin-top: 40px;
   border-radius: 10px;
   box-shadow: 0 5px 2px gray;
+  border: 2px solid currentColor;
 }
-
 
 .profile {
   width: 100px;
