@@ -155,3 +155,29 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #345236;
 }
+
+.video-content{
+  max-width: 1440px;
+  margin-inline: auto;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+iframe {
+  display: block;
+  width: 500px;
+  max-width: 800px;
+  margin: 40px auto;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+@media (max-width:768px) {
+  .menubar ul,.menubar-2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
