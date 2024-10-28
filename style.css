@@ -74,13 +74,8 @@ body{
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
-  padding: 10px;
-
-  &:hover {
-    background-color: rgb(93, 128, 93);
-    padding: 10px;
-  }
 }
+
 
 .fa {
   color: #fff;
@@ -122,6 +117,7 @@ form {
   box-shadow: 0 5px 2px gray;
 }
 
+
 .profile {
   width: 100px;
   height: 100px;
@@ -148,8 +144,7 @@ input[type=text] {
 
 input[type=submit] {
   width: 100%;
-  background-color: #4CAF50;
-  color: white;
+  background-color: #b5b5b5;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -158,5 +153,5 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #345236;
 }
