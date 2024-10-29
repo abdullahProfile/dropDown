@@ -198,7 +198,7 @@ iframe {
 }
 
 @media (max-width:768px) {
-  .menubar-2 ul li:hover .sub-menu-two {
+  .menubar ul li:hover .full-screen-drapdown {
     flex-direction: column;
     width: auto;
   }
