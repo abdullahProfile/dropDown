@@ -204,4 +204,14 @@ iframe {
     left: auto;
     padding: 15px;
   }
+
+  .video-content {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .video-content iframe {
+    width: auto;
+    height: auto;
+  }
 }
