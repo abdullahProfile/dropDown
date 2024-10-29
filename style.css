@@ -241,3 +241,10 @@ iframe {
   object-fit: cover;
   height: 100vh;
 }
+
+@media (max-width:768px) {
+  .menubar-2 ul li:hover .sub-menu-two {
+    flex-direction: column;
+    width: auto;
+  }
+}
